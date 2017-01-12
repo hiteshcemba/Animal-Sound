@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+        <title>AnimalSound v1.0.1</title>
+    </head>
+<body>
+   
+    <!--<div class="app">
+        <p id="deviceready" class="event">Connecting to Device</p>
+    </div>-->
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <img src='images/LittleABCApps.jpg' style="width:40px;height:40px">
+            Little ABC Apps
+                <div data-role="navbar">
+                    <ul>
+                        <li ><a href="#" id="soundid" class="ui-btn-active">A - I</a></li>
+                        <li><a href="#" id="nameid">J - S</a></li>
+                        <li><a href="#">T - Z</a></li>
+                    </ul>
+                </div>
+</div>
+
+        <div data-role="main" class="ui-content">
+        
+              <div class="ui-grid-b">
+                <div class="ui-block-a" style="padding:2px" >
+                    <button type="button" class="button" id="1Dog" style="background-image: url('images/1Dog.jpg');"></button>
+                    <button type="button" class="button" id="4Horse" style="background-image: url('images/4Horse.jpg');"></button>
+                    <button type="button" class="button" id="7Dinosaur" style="background-image: url('images/7Dino.jpg');"></button>
+                    <button type="button" class="button" id="10Rat" style="background-image: url('images/10rat.jpg');"></button>
+                </div>   
+                <div class="ui-block-b" style="padding:2px">
+                    <button type="button" class="button" id="2Cat" style="background-image: url('images/2Cat.jpg');"></button>
+                    <button type="button" class="button" id="5Pig" style="background-image: url('images/5Pig.jpg');"></button>
+                    <button type="button" class="button" id="8Goat" style="background-image: url('images/8Got.jpg');"></button>
+                    <button type="button" class="button" id="Snake" style="background-image: url('images/11Snake.jpg');"></button>
+                    
+                </div> 
+
+                <div class="ui-block-c" style="padding:2px">
+                    <button type="button" class="button" id="3Monkey" style="background-image: url('images/3Monkey.jpg');"></button>
+                    <button type="button" class="button" id="6Sheep" style="background-image: url('images/6Sheep.jpg');"></button>
+                    <button type="button" class="button" id="9Lion" style="background-image: url('images/9Lion.jpg');"></button>
+                    <button type="button" class="button" id="12Tiger" style="background-image: url('images/12Tiger.jpg');"></button>
+                </div> 
+               
+                </div>
+            </div>
+        <div>
+            <footer>
+                <span>Little ABC Apps</span>
+                
+            </footer>
+            <div id="audio_position"></div>
+        </div>
+     </div>
+
+        <script src="scripts/myApp.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+    <script src="scripts/jquery-1.8.0.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+
+</body>
+</html>
